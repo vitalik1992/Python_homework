@@ -21,6 +21,6 @@ for i in string:
         set_of_unavailable_numbers = set_of_numbers.difference(set_of_string_numbers)
 
 
-print(set(big_letters_sorted))
-print(set(small_letters_sorted))
+print(big_letters_sorted)
+print(small_letters_sorted)
 print(set_of_unavailable_numbers)
